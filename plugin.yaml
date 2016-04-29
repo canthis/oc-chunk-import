@@ -1,0 +1,6 @@
+plugin:
+    name: 'canthis.importexport::lang.plugin.name'
+    description: 'canthis.importexport::lang.plugin.description'
+    author: CanThis
+    icon: oc-icon-upload
+    homepage: 'https://github.com/canthis/oc-chunk-import'
