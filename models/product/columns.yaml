@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: 'Product name'
+        type: text
+        searchable: true
+        sortable: true
+    sku:
+        label: 'Product code'
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: Price
+        type: number
+        sortable: true

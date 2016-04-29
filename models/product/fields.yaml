@@ -1,0 +1,16 @@
+fields:
+    name:
+        label: 'Product name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    sku:
+        label: 'Product code (SKU)'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    price:
+        label: Price
+        oc.commentPosition: ''
+        span: auto
+        type: number

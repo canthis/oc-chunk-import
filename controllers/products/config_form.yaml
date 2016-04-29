@@ -1,0 +1,10 @@
+name: Products
+form: $/canthis/importexport/models/product/fields.yaml
+modelClass: CanThis\ImportExport\Models\Product
+defaultRedirect: canthis/importexport/products
+create:
+    redirect: 'canthis/importexport/products/update/:id'
+    redirectClose: canthis/importexport/products
+update:
+    redirect: canthis/importexport/products
+    redirectClose: canthis/importexport/products

@@ -1,0 +1,8 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+ 
+import:
+    title: Import entries
+    modelClass: CanThis\ImportExport\Models\ProductsImport
+    list: $/canthis/importexport/models/product/import_columns.yaml

@@ -3,4 +3,18 @@ plugin:
     description: 'canthis.importexport::lang.plugin.description'
     author: CanThis
     icon: oc-icon-upload
-    homepage: 'https://github.com/canthis/oc-chunk-import'
+    homepage: ''
+navigation:
+    importexport:
+        label: 'Chunk Import Test'
+        url: canthis/importexport/products/
+        icon: icon-upload
+        sideMenu:
+            products:
+                label: Products
+                url: canthis/importexport/products/
+                icon: icon-cubes
+            import-log:
+                label: 'Import Log'
+                url: canthis/importexport/importlogs/
+                icon: icon-history

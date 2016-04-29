@@ -1,0 +1,27 @@
+<div class="callout fade in callout-warning no-icon no-subheader">
+    <div class="header">
+        <h3>Svarīgi!</h3>
+    </div>
+    <div class="content">
+        <p>Produktu importa funkcionalitāte ir izstrādes procesā!</p>
+    </div>
+</div>
+
+<?= Form::open(['class' => 'layout']) ?>
+ 
+    <div class="layout-row">
+        <?= $this->importRender() ?>
+    </div>
+ 
+    <div class="form-buttons">
+        <button
+            type="submit"
+            data-control="popup"
+            data-handler="onImportLoadForm"
+            data-keyboard="false"
+            class="btn btn-primary">
+            Import records
+        </button>
+    </div>
+ 
+<?= Form::close() ?>

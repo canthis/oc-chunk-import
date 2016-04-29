@@ -1,0 +1,9 @@
+<?php if(isset($record->import_file->file_name) && !is_null($record->import_file->file_name)): ?>
+    <a href="<?= $record->import_file->getPath() ?>"
+       data-toggle="tooltip"
+       data-placement="top"
+       data-title="Download">
+       <i class="icon-download"></i>
+       <?= $record->import_file->file_name ?>
+    </a>
+<?php endif; ?>

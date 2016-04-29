@@ -1,0 +1,12 @@
+title: Products
+modelClass: CanThis\ImportExport\Models\Product
+list: $/canthis/importexport/models/product/columns.yaml
+recordUrl: 'canthis/importexport/products/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: '10'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

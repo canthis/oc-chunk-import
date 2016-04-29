@@ -1,0 +1,21 @@
+columns:
+    import_file:
+        label: 'Import File'
+        type: partial
+        searchable: false
+        sortable: false
+        cssClass: nolink
+    author:
+        label: 'canthis.shop::lang.product_import.author'
+        type: text
+        select: 'CONCAT_WS('' '', first_name, last_name)'
+        relation: author
+    created_at:
+        label: 'canthis.shop::lang.list.created_at'
+        type: datetime
+        sortable: true
+    updated_at:
+        label: 'canthis.shop::lang.list.updated_at'
+        type: datetime
+        invisible: true
+        sortable: true

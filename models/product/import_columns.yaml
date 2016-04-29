@@ -1,0 +1,11 @@
+columns:
+    name:
+        label: Product name
+        type: text   
+    sku:
+        label: Product code
+        type: text
+    price:
+        label: Price
+        type: number
+
